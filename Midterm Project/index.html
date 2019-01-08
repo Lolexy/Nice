@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CJ Studio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <style>
+      *{margin:0;padding:0;box-sizing:border-box; font-family: 'Roboto Condensed', sans-serif;}
+      a {text-decoration:none; }
+    
+      .imglist_ul {font-size:0;width:800px;margin:0 auto;padding:10px;}
+      .imglist_ul > li {display:inline-block;width:33.3%;vertical-align:top;font-size:12px;}
+      a {display:block;width:auto;color:#424874;margin:5px 5px 10px 5px;}
+      a .screen {position:relative;overflow:hidden;padding-bottom:56.25%;}
+      a .screen img {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:100%;z-index:1;}
+      a .screen span {display:block;position:absolute;transition:all .2s;background:#424874;z-index:2;}
+      a .screen span:nth-child(1) {top:0;height:5px;width:0;}
+      a .screen span:nth-child(2) {top:0;right:0;width:5px;height:0;}
+      a .screen span:nth-child(3) {bottom:0;right:0;height:5px;width:0;}
+      a .screen span:nth-child(4) {bottom:0;left:0;width:5px;height:0;}
+      a:hover .screen span:nth-child(1) {width:100%;}
+      a:hover .screen span:nth-child(2) {height:100%;transition-delay:.1s;}
+      a:hover .screen span:nth-child(3) {width:100%;transition-delay:.2s;}
+      a:hover .screen span:nth-child(4) {height:100%;transition-delay:.3s;}
+      a h3 {margin:20px 10px;font-size:25px;}
+      a p {font-family: 'NanumSquare';margin:0 10px;font-size:12px;line-height:18px;}
+      
+      </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CJ Studio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Jade">Jade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Calvin">Calvin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Music">Music</a>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#More">More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="headerstyle">
+      <div class="container text-center">
+        <h1>Welcome to CJ Studio</h1>
+        <p class="lead">Calvin & Jade's Music & Movie Story</p>
+      </div>
+    </header>
+
+
+    <section id="Jade" style="background-color:rgb(160, 183, 216)">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h2>Jade</h2>
+                <p class="lead">Recommend Movies of the Week (Image slider)</p>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="imgs w-100"> <span>스파이더 맨 뉴 유니버스</span> <img src="https://201810700jade.github.io/carousel/spider2.jpg" alt="First slide"></div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgs w-100"> <span>바닐라 스카이</span> <img src="https://201810700jade.github.io/carousel/vanilasky2.jpg" alt="Second slide"></div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgs w-100"> <span>싱글 라이더</span> <img src="https://201810700jade.github.io/carousel/rider2.jpg" alt="Third slide"></div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+    </section>
+
+    <section id="Calvin" style=background-color:#D6E5E3;>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2>Calvin</h2>
+            <p class="lead">Recommend Song of the Week (Click on YouTube)</p>
+            <ul class="imglist_ul">
+              <li>
+                <a href="https://youtu.be/Tqudgg0aBAI">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="http://post.phinf.naver.net/MjAxNzA0MTNfMTkw/MDAxNDkyMDgyNDg3NzYx.i7heIGulKS7s6je8FInc6i4mXC5c989SDrE4oMNHH4og.xAUwG5boDkdGGI0n43TRjJC-90sZTllEq6lJIo87XvAg.JPEG/I_nDjYI5cXLvAe9sFD2SLeEc8e6Y.img">
+                  </div>
+                  <h3>싫은 날 - 아이유</h3>
+                  <p>"텅 빈 놀이터 벤치에 누군가 다녀간 온기, 왜 따뜻함이 날 더 춥게 만드는 거야."</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/3WGIBdL6wuQ">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="http://shop1.phinf.naver.net/20181120_166/bktop21_1542714544396xnn7f_JPEG/25345724046656362_338525737.img">
+                  </div>
+                  <h3>Noise - 우원재</h3>
+                  <p>"정적이란 절대 없는 것, Make Some Noise, 더 크게 소리내야 그제서야 알아듣는 법."</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/vZfdBiNXHxY">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="http://post.phinf.naver.net/MjAxODExMTFfMzMg/MDAxNTQxOTQ4MTgyODMx.6IEMdUPLjm0yPLNVRAtq26tXI78_GIZHs82WkNJYGs8g.duIcTBcEmt7hDi_m781kJ7J6ytYstw5jaZ1XfQbL0Vkg.JPEG/IunHsqvGQX1_uMQ8XcMoU4atbfSw.img">
+                  </div>
+                  <h3>북향 - 다이나믹 듀오</h3>
+                  <p>"내 방처럼 나도 변해가고 있어. 좁고 어둡게 작고 어둡게. 이 어둠이 더 편한지도 몰라. 상처가 잘 보이지 않으니까"</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/E4povfmX144">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="http://blogfiles.naver.net/20150303_105/skadudgns119_142535972950690gnL_JPEG/KODALINE_-_High_Hopes_3.img">
+                  </div>
+                  <h3>high hopes - Kodaline</h3>
+                  <p>"High hopes, when you let it go, go out and start again. High hopes, when it all comes to an end. But the world keeps spinning around"</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/BVeV8miZpjQ">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="https://phinf.pstatic.net/tvcast/20180330_195/lhS7E_1522377735367Q7bHJ_JPEG/b1cd6fe0-33c3-11e8-b21a-0000000049a8_03.img">
+                  </div>
+                  <h3>Midnight blue - Gogang</h3>
+                  <p>"I would never see those again. So, I tried to grip as hard as I can"</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtu.be/KBk0-QDjWfA">
+                  <div class="screen">
+                    <span></span><span></span><span></span><span></span>
+                    <img src="http://blogfiles.naver.net/MjAxNzA5MTRfMjI2/MDAxNTA1Mzc5ODI0MzYx.VO85W_dAY_w6mRngLWtKRSIsDEUKomD4k_vHQ8_zeGAg.bYWPU88jN9na5oK1M12OuOfT7h-Wv9maeYiDeqYghAgg.JPEG.music9832/image_7998088231505379766237.img">
+                  </div>
+                  <h3>사랑해 - 바비</h3>
+                  <p>"사랑을 노력한다는 건 이미 사랑이 아닌 걸. 설렘이 빠진 사랑에게 남는 건 결국 정뿐인 걸."</p>
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Grid: Image Test, in Class. -->
+    <section id="Music" style="background-color:#A6B1E1; padding:6% 0;">
+        <div class="container">
+          <!-- 1 Row, Two Columns. -->
+          <div class="row">   
+                <div class= "col tallCol text-center">
+                    <h2>K-Pop</h2>
+                    <img class="boom d-block w-100" src="https://phinf.pstatic.net/tvcast/20180410_23/poPx1_1523345401133eW1as_JPEG/1523345399353.img"></img>
+
+                      <p>K-Pop BoyGroup : iKON</p>
+                      <p>Hit Songs</p>
+                      <p>이별길 (Goodbye Road) - 2018</p>
+                      <lp>사랑을 했다 (Love Scenario) - 2018</p>
+
+                </div>
+            
+                <div class= "col tallCol text-center">
+                    <h2>Pop</h2>
+                    <img class="boom d-block w-100" src="http://blogfiles.naver.net/20140511_299/korea1004vip_1399796061953FcSeM_JPEG/%BA%F1%BF%E6%BC%BC17.img"></img>
+
+                          <p>Pop Artist : Beyonce</p>
+                          <p>Hit Songs</p>
+                          <p>Halo - 2009</p>
+                          <p>Listen- 2009</p>
+
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="More" style="background-color:rgb(202, 209, 177); padding:4%;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mx-auto">
+                <h2>About</h2>
+                <ul>
+                    <li>Where there is a beautiful song</li>
+                    <li>Where there is a beautiful movie</li>
+                    <li>Where we can share our tastes</li>
+                </ul>
+
+            <h2>More</h2>
+            <ul>
+                <li>(34518) 대전광역시 동구 백룡로 59(우송대학교 동캠퍼스) 솔지오</li>
+                <li>CEO : Calvin (tucpass@naver.com) / Jade (mark0219@naver.com)</li>
+                <li>Thanks for your recommends and Enjoy Songs & Movies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Calvin, Jade 2019</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
